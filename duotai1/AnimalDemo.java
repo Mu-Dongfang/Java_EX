@@ -15,10 +15,10 @@ public class AnimalDemo {
         Animal p = new Pig();
         ao.useAnimal(p);
         // 向下转型,父类引用转为子类对象
-        Cat cat = (Cat)c;
+        Cat cat = (Cat) c;
         ao.useAnimal(cat);// 多态
         cat.playGame();
-        Dog dog = (Dog)d;
+        Dog dog = (Dog) d;
         ao.useAnimal(dog);// 多态
         dog.lookDoor();
     }
