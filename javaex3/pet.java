@@ -1,4 +1,4 @@
-package com.jiekou;
+package com.javaex3;
 
 /*
   接口

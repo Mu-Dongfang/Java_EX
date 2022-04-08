@@ -1,6 +1,6 @@
-package com.jiekou;
+package com.javaex3;
 
-public class javaex3 implements pet{
+public class javaex3 implements pet {
     /*
       接口是一种公共的规范标准，只要符合规范标准，大家都可以通用
       Java中的接口更多的体现在对行为的抽象
@@ -15,6 +15,11 @@ public class javaex3 implements pet{
       ... implements 接口名 , 接口名 , ...
       分析时从具体到抽象,实现时从抽象到具体
     */
-    public void eat(){
+    /*
+      具体类作为参数(形参,返回值等)时,该类的对象作为参数传递和返回
+      抽象类作为参数(形参,返回值等)时,实际上需要的是该抽象类的子类对象作为参数传递
+      接口作为参数(形参,返回值等)时,实际上需要的是该接口的实现类对象作为参数传递
+     */
+    public void eat() {
     }
 }
