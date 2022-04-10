@@ -12,7 +12,7 @@ package com.javaex2;
 */
 
 /**
- * Java练习2
+ * Java练习2 类
  */
 public class App {
     public static void main(String[] args) {

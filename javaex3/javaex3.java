@@ -1,5 +1,9 @@
 package com.javaex3;
 
+/**
+ * 接口
+ */
+
 public class javaex3 implements pet {
     /*
       接口是一种公共的规范标准，只要符合规范标准，大家都可以通用
